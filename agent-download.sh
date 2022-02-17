@@ -1,7 +1,5 @@
 #!/bin/bash
 
-AGENT_VERSION="latest"
-AUTOTEST_AGENT_VERSION="latest"
 rm -rf data/*
 cd data || exit
 if [ $AGENT_VERSION = "latest" ]
